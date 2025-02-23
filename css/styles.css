@@ -229,7 +229,7 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .container-page-two {
-    padding: 32px 0 8px;
+    padding: 32px 0;
 }
 .page-two-user {
     font-weight: 500;
@@ -247,12 +247,13 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 .list-page-two-link{
     display: flex;
     justify-content: center;
     column-gap: 24px;
-    padding: 0 16px 32px 16px;
+    padding: 0 16px 0 16px;
 }
 .container-page-two-link {
     display: flex;
@@ -377,7 +378,7 @@ img {
 .list-page-footer {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 16px;
 }
 .container-footer-link {
     display: flex;
